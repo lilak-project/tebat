@@ -1,0 +1,8 @@
+tebat/Mapping           {lilak_common}/tebat_micromegas_mapping.txt # cobo asad aget chan x y
+tebat/UsePixelSpace     true
+tebat/MaxCobo           7
+tebat/padsize_z         3
+tebat/padsize_x         3
+tebat/binning_x         84,  -126,  126
+tebat/binning_y         512, 0,    -512
+tebat/binning_z         84,  0,     252

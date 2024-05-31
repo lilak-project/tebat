@@ -1,0 +1,17 @@
+LKRun/Name           tebat  # name of the run
+LKRun/RunID          58     #
+LKRun/Division       0      # division within the run [optional]
+*LKRun/Tag           conv   # tag (*: temporary parameter)
+LKRun/DataPath       {lilak_home}/tebat/macros/data/    # path to ouput 
+
+persistency/FrameHeader true   # persistency of TTree branch FrameHeader
+persistency/RawData     true   # persistency of TTree branch RawData
+
+#################################
+
+LKMFMConversionTask/InputFileName   path/to/raw/data    # path to input raw data
+
+LKFrameBuilder/MaxCobo              4   # maximum number of CoBo
+LKFrameBuilder/MaxAsad              4   # maximum number of AsAd in one CoBo
+LKFrameBuilder/MaxAget              4   # maximum number of AGET in one AsAd
+LKFrameBuilder/MaxChannels          68  # maximum number of channels in AGET

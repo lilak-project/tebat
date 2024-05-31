@@ -1,0 +1,18 @@
+<micoromegas_configs    config_tebat.mac
+
+*LKRun/Tag              eve
+LKEveTask/drawEve3D     false
+LKEveTask/drawPlane     true
+
+Hit/markerStyle  20
+Hit/markerSize   1.1
+Hit/markerColor  kBlue
+
+LKHTTrackingTask/mode       zy
+LKHTTrackingTask/binning_x  100, 0,    100
+LKHTTrackingTask/binning_y  100, -512, 0
+LKHTTrackingTask/binning_z  100, 0,    100
+
+&*LKRun/InputFile /path/to/input/file
+
+LKEvePlane/fillOption hit
