@@ -1,7 +1,9 @@
 void run_eve()
 {
+
     auto run = new LKRun();
-    run -> AddDetector(new AToMX());
+    cout<<"TEST"<<endl;
+    run -> AddDetector(new TeBAT());
     run -> AddPar("config_eve.mac");
     run -> Add(new LKPulseShapeAnalysisTask);
     run -> Add(new LKEveTask);
